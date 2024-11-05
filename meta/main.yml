@@ -1,0 +1,33 @@
+galaxy_info:
+    author: Argian Raditya Putra
+    role_name: role_name # <role-name>
+    description: role_description
+    company: PT. Tabeldata Informatika
+
+    # issue_tracker_url: http://example.com/issue/tracker
+
+    license: MIT
+
+    min_ansible_version: "2.9"
+
+    # min_ansible_container_version:
+    platforms:
+        - name: EL
+          versions:
+              - "7"
+              - "8"
+              - "9"
+        - name: Rocky
+          versions:
+              - all
+        - name: Ubuntu
+          versions:
+            - focal
+            - bionic
+        - name: Debian
+          versions:
+            - buster
+            - stretch
+
+
+dependencies: []
